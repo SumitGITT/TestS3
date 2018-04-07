@@ -16,17 +16,17 @@ and we upload/put it into our newly created bucket.
 $bucket = $_GET["bucket"];
 
 //create the file name
-$key = 'cloudguru.txt';
+$key = 'sumitTestfile.txt';
 
 //put the file and data in our bucket
 $result = $client->putObject(array(
     'Bucket' => $bucket,
     'Key'    => $key,
-    'Body'   => "Hello Cloud Gurus!"
+    'Body'   => "Hello Guys!"
 ));
 
 //HTML to create our webpage
 echo "<h2 align=\"center\">File - $key has been successfully uploaded to $bucket</h2>";
-echo "<div align = \"center\"><img src=\"https://acloud.guru/images/logo-small-optimised.png\"></img></div>";
+echo "<div align = \"center\"><img src=\"http://www.pmindia.gov.in/wp-content/uploads/2014/06/High1.jpg\"></img></div>";
 echo "<div align = \"center\"><a href=\"readfile.php?bucket=$bucket&key=$key\">Click Here To Read Your File</a></div>";
 ?>
