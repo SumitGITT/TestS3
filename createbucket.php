@@ -27,7 +27,7 @@ echo "<div align=\"center\"><a href=\"createfile.php?bucket=$bucket\">Click Here
 //copyright SumitGitt 2018
 
 //connection string
-include 'connectiontoaws.php'
+include 'connecttoaws.php';
 
 //create a bucket name
     $bucketname= uniqid("testid", true);
@@ -42,8 +42,5 @@ echo "<div align=\"center\"><img src=\"https://scontent-bom1-1.xx.fbcdn.net/v/t1
 echo "<h2 align=\"center\"> You have successfully created the bucket [$bucketname]</h2>";
 echo "<h2 align=\"center\"><a href=\"createfile.php?bucket=$bucket\">Click here to continue</a></h2>";
     
-    
-
-
 
 ?>
