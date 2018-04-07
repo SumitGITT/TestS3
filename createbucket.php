@@ -39,9 +39,9 @@ include 'connecttoaws.php';
  //Html page
 echo "<h1 align=\"center\">Hello Guys</h1>";
 <<<<<<< HEAD
-//echo "<div align=\"center\"><img src=\"\"></img></div>";
-//echo "<h2 align=\"center\"> You have successfully created the bucket [$bucketname]</h2>";
-//echo "<h2 align=\"center\"><a href=\"createfile.php?bucket=$bucket\">Click here to continue</a></h2>";
+echo "<div align=\"center\"><img src=\"\"></img></div>";
+echo "<h2 align=\"center\"> You have successfully created the bucket [$bucketname]</h2>";
+echo "<h2 align=\"center\"><a href=\"createfile.php?bucket=$bucket\">Click here to continue</a></h2>";
     
     
 
