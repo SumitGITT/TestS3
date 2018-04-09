@@ -22,7 +22,7 @@ $key = 'sumitTestfile.txt';
 $result = $client->putObject(array(
     'Bucket' => $bucket,
     'Key'    => $key,
-    'Body'   => "Hello Guys!"
+    'Body'   => "Hello Guys! How are you"
 ));
 
 //HTML to create our webpage
